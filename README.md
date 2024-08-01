@@ -10,7 +10,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
    npm install
    ```
 
-2. Start the development server:
+2. Start mockup API server
+
+   ```
+   json-server --watch db.json
+   ```
+
+3. Start frontend development server:
    ```
    npm start
    ```
